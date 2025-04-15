@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-color: red;
   }
   .container {
     overflow: hidden;
@@ -12,6 +11,38 @@
     width: 900px;
     margin: 0 auto;
   }
+  .burger {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: brown;
+  }
+  .index-images{
+    height: auto;
+    width: 300px;
+  }
+  .fries {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: orange;
+  }
+  .milkshake {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: pink;
+  }
+  .text{
+    padding: 20px;
+    color: white;
+  }
+  .button {
+    color: black;
+    background-color: white;
+    
+    
+  }
   .menu {
     height: 100px;
     background-color: #B2D6FF;    /* Medium blue */
@@ -19,4 +50,5 @@
   .footer {
     overflow: hidden;
     background-color: #D6E9FE;
+    height: 180px;
   }
