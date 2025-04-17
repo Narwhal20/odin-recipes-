@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px;
+    border-color: red;
   }
   .container {
     overflow: hidden;
@@ -16,6 +18,7 @@
     height: 500px;
     float: left;
     background-color: brown;
+    overflow: hidden;
   }
   .index-images{
     height: auto;
@@ -26,6 +29,7 @@
     height: 500px;
     float: left;
     background-color: orange;
+    overflow: hidden;
   }
   .milkshake {
     width: 300px;
@@ -33,22 +37,56 @@
     float: left;
     background-color: pink;
   }
-  .text{
-    padding: 20px;
+  .index-header{
     color: white;
+    padding: 10px;
+    font-family: Comic Arial, Helvetica, sans-serif;
+    font-size: 25px;
   }
-  .button {
+  .index-text{
+    padding: 10px;
+    color: white;
+    font-family: Comic Arial, Helvetica, sans-serif;
+  }
+  .index-button {
     color: black;
     background-color: white;
-    
-    
-  }
+    margin: 10px;
+    font-family: Comic Arial, Helvetica, sans-serif;
+
+    }
   .menu {
     height: 100px;
     background-color: #B2D6FF;    /* Medium blue */
+  }
+  .menu-header{
+    font-size: 80px;
+    color: black;
+    font-family: Comic Arial, Helvetica, sans-serif;
+    float: left;
+  }
+  .menu-image{
+    width: 100px;
+    height: 100px;
+    float: inline-end;
   }
   .footer {
     overflow: hidden;
     background-color: #D6E9FE;
     height: 180px;
+  }
+  .footer-image{
+    height: 180px;
+    width: 180px;
+    float: left;
+    overflow: hidden;
+  }
+  .footer-text{
+    color: black  ;
+    margin: 15px;
+    padding: 5px;
+    font-size: large;
+    overflow: hidden;
+    font-family: Comic Arial, Helvetica, sans-serif;
+
   }
