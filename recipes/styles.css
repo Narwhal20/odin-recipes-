@@ -61,8 +61,8 @@
   overflow: hidden;
 }
 .index-images{
-  height: auto;
-  width: 300px;
+  height: 200px;
+  width: auto;
 }
 .fries {
   width: 300px;
@@ -157,8 +157,8 @@
 }
 /* Milkshake Page */
 .milkshake-dark-bg-color{
-  background-color: pink ;
+  background-color: rgb(255, 110, 134) ;
 }
 .milkshake-light-bg-color{
-  background-color: rgb(255, 110, 134) ;
+  background-color: rgb(223, 124, 140) ;
 }
