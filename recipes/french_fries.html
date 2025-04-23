@@ -3,31 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fries Recipe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>French Fries Recipe</h1>
-    <img src="images/fries.jpg" alt="image of fries" width="650" height="500">
-    <p>This is the best fries recipe on the internet. It makes 2-4 orders of fries
-        It pairs very well with the other recipies linked on the home page. 
-        You can always substitiute for what you have in your kitchen.</p>    <h2>Ingredients</h2>
-    <ul>
-        <li>Potatos</li>
-        <li>Oil</li>
-        <li>Salt</li>
-        <li>Seasonings</li>
-        <li>Ketchup</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Wash and cut your potatos.</li>
-        <li>Soak potatos in cold ice water for 20 minutes.</li>
-        <li>Dry potatos then fry them in a pot of oil for 15-20 minutes</li>
-        <li>Take them out and season with salt, or other seasonings of choice.</li>
-        <li>Add your Ketchup and Enjoy!</li>
-        
-    </ol>
-    <a href="../index.html">Home</a>
+    <div class="menu">
+        <h1 class="menu-header"><a href="../index2.html">Odin Recipies</a></h1>
+        <img alt="odin logo" class="menu-image" src="./images/odin.png">
+    </div>
+    <div class="container">
+        <div class="image-main">
+            <img class="rp-image" src="images/burger.jpg">
+        </div>
+        <div class="page">
+            <div class="rp-description fries-dark-bg-color">
+                <h2 class="rp-header">Description</h2>
+                <p class="rp-text">This is the best fries recipe on the internet. It makes 2-4 orders of fries
+                    It pairs very well with the other recipies linked on the home page. 
+                    You can always substitiute for what you have in your kitchen.</p>
+            </div>
+            <div class="rp-ingredients fries-light-bg-color">
+                <h2 class="rp-header">Ingredients</h2>
+                <ul class="rp-text rp-list">
+                    <li class="rp-text">Potatos</li>
+                    <li class="rp-text">Oil</li>
+                    <li class="rp-text">Salt</li>
+                    <li class="rp-text">Seasonings</li>
+                    <li class="rp-text">Ketchup</li>
+                </ul>
+            </div>
+            <div class="rp-steps fries-dark-bg-color">
+                <h2 class="rp-header">Steps</h2>
+                <ol class="rp-text rp-list">
+                    <li class="rp-text">Wash and cut your potatos.</li>
+                    <li class="rp-text">Soak potatos in cold ice water for 20 minutes.</li>
+                    <li class="rp-text">Dry potatos then fry them in a pot of oil for 15-20 minutes</li>
+                    <li class="rp-text">Take them out and season with salt, or other seasonings of choice.</li>
+                    <li class="rp-text">Add your Ketchup and Enjoy!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img alt="image of caden" class="footer-image" src="images/caden-logo.png">
+        <p class="footer-text">This is a continuation of the Odin Recipes project. 
+            I remade the site using only floats to organize the layout. 
+            I wanted to understand the process of laying out a website without flexboxes. 
+            This helped me gain tremendous understanding in the process to build a site.</p>
+    </div>
 </body>
 </html>
